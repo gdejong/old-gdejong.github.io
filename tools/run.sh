@@ -53,6 +53,7 @@ _init() {
   cp -r "$WORK_DIR"/* "$temp"
   cp -r "${WORK_DIR}/.git" "$temp"
   mv "$temp" "${WORK_DIR}/${CONTAINER}"
+  chown -R jekyll:jekyll "${WORK_DIR}/${CONTAINER}"
 
   trap _cleanup INT
 }

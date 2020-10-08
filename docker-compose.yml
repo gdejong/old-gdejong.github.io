@@ -3,7 +3,7 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll
-    command: jekyll serve --watch --force_polling --verbose
+    command: bash tools/run.sh -H 0.0.0.0
     volumes:
       - .:/srv/jekyll
     ports:
