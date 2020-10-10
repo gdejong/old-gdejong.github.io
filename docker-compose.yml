@@ -3,7 +3,7 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll
-    command: bash tools/run.sh -H 0.0.0.0
+    command: bash tools/run.sh --docker
     volumes:
       - .:/srv/jekyll
     ports:
