@@ -98,7 +98,6 @@ sudo reboot
 
 ![1080p resolution](/assets/img/gui/high-res.png)
 
-
 # Resources
 - [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/)
 - [https://www.raspberrypi.org/documentation/remote-access/vnc/](https://www.raspberrypi.org/documentation/remote-access/vnc/)
