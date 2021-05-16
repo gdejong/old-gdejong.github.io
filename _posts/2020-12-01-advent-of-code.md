@@ -5,7 +5,8 @@ date: 2020-12-01 21:00:00 +0200
 categories: [programming]
 tags: [programming]
 pin: true
-image: /assets/img/aoc2020/aoc.png
+image:
+  src: /assets/img/aoc2020/aoc.png
 ---
 
 It's the first day of December, which means it's time for another installment of the [Advent of Code](https://adventofcode.com/2020)!

@@ -5,10 +5,11 @@ date: 2020-10-26 21:00:00 +0200
 categories: [linux]
 tags: [linux, cli]
 pin: true
-image: /assets/img/whiptail/inputbox.png
+image:
+  src: /assets/img/whiptail/inputbox.png
 ---
 
-Have you ever wanted to make your shell script interactive? 
+Have you ever wanted to make your shell script interactive?
 Or have you ever wanted to display a full screen message from your shell script?
 [**Whiptail**](https://linux.die.net/man/1/whiptail) can do this for you!
 
@@ -29,7 +30,7 @@ It offers a couple of different dialog boxes:
 
 # Installation
 
-On Debian based Linux distributions `whiptail` comes preinstalled. 
+On Debian based Linux distributions `whiptail` comes preinstalled.
 
 If not you can grab it via:
 ```shell
@@ -91,7 +92,7 @@ fi
 ## Info box
 An info box is basically a message box without Whiptail waiting for the user to hit ENTER.
 
-This dialog box **does not work** on `xterm` terminals (for example the default terminal in Ubuntu)! 
+This dialog box **does not work** on `xterm` terminals (for example the default terminal in Ubuntu)!
 
 A [workaround](https://stackoverflow.com/questions/13000391/how-to-display-infobox-in-whiptail) is possible though.
 
@@ -234,7 +235,7 @@ fi
 
 ## Gauge box
 
-The last type, the gauge box, can be used to display a progress bar. 
+The last type, the gauge box, can be used to display a progress bar.
 Whiptail reads new percentages to update the progress bar from `stdin`.
 
 The most difficult part of using this type of dialog box is knowing the progress of a command.

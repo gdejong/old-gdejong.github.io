@@ -5,7 +5,8 @@ date: 2021-01-09 20:00:00 +0200
 categories: [linux]
 tags: [linux, raspberry-pi]
 pin: true
-image: /assets/img/rpi-fs-resize/rpi-resize.png
+image:
+  src: /assets/img/rpi-fs-resize/rpi-resize.png
 ---
 
 When you boot Raspberry Pi OS for the first time, it performs an automatic file system expansion. This process makes sure that the file system is expanded to the size of the SD card.
@@ -85,7 +86,7 @@ The [Raspberry PI documentation](https://www.raspberrypi.org/documentation/confi
 Let's have a look at its contents:
 
 ```terminal
-# cat /tmp/rpi-boot/cmdline.txt 
+# cat /tmp/rpi-boot/cmdline.txt
 console=serial0,115200 console=tty1 root=PARTUUID=067e19d7-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet init=/usr/lib/raspi-config/init_resize.sh
 ```
 

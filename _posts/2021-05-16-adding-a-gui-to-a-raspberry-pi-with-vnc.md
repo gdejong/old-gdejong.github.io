@@ -5,7 +5,8 @@ date: 2021-05-16 12:00:00 +0100
 categories: [linux]
 tags: [linux, raspberry-pi]
 pin: true
-image: /assets/img/gui/desktop.png
+image:
+  src: /assets/img/gui/desktop.png
 ---
 
 You may have installed **Raspberry Pi OS Lite** on your Raspberry Pi, which does not ship with a GUI.
